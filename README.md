@@ -1,4 +1,4 @@
-website-faq
+support
 ===========
 
 FAQ for Onename website
