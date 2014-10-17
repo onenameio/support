@@ -47,8 +47,8 @@ If you do not provide a Bitcoin address during registration, Onename will genera
 Verifications.
 ----
 
-#### <a name="address_1"/>Q: Why do I need to publicly tweet/post and not delete the tweet/post?
+#### <a name="verification_1"/>Q: Why do I need to publicly tweet/post and not delete the tweet/post?
 Verifications need to be independently and publicly verifiable i.e., any person who wants to verify the proof should be able to look at it hence the post/tweet needs to be public. Further, Onename can't vouch for the proof on behalf of any user (this is more secure than trusting any single service) meaning you can't auth your Twitter/Facebook with Onename and then try to use that as a proof.  
 
-#### <a name="address_1"/>Q: Why is my Twitter/Facebook/Github verification not showing up?
+#### <a name="verification_2"/>Q: Why is my Twitter/Facebook/Github verification not showing up?
 The verification text needs to be exact, more specifically "Verifying myself: My Bitcoin username is +<username>" needs to be in the text. This requirement is because of security reasons and we can't allow arbitrary methods of phrasing the proof text. 
