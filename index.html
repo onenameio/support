@@ -33,16 +33,88 @@
 
 <p>You'll find answers to some frequently asked questions here. If you cannot find your question here, feel free to email <a href="mailto:support@onename.io">support@onename.io</a>.</p>
 
-<h3>
-<a name="questions" class="anchor" href="#questions"><span class="octicon octicon-link"></span></a>Questions.</h3>
+<h2>
+<a name="questions" class="anchor" href="#questions"><span class="octicon octicon-link"></span></a>Questions</h2>
+
+<p>General:</p>
 
 <ul>
-<li><a href="#btc_address">How does the automatically generated Bitcoin address work?</a></li>
-</ul><h4>
-<a name="question-how-does-the-automatically-generated-bitcoin-address-work" class="anchor" href="#question-how-does-the-automatically-generated-bitcoin-address-work"><span class="octicon octicon-link"></span></a>
-<a name="btc_address"></a>Question: How does the automatically generated Bitcoin address work?</h4>
+<li><a href="#general_1">What is OneName?</a></li>
+<li><a href="#general_2">What do you mean I'm in control?</a></li>
+<li><a href="#general_3">How can I trust the user profile data you display is correct?</a></li>
+<li><a href="#general_4">I've heard there are multiple blockchains? Which one are you using?</a></li>
+<li><a href="#general_5">If I don't want to register a username and profile through your site, can I do it myself?</a></li>
+</ul>
+
+<p>Addresses &amp; Private Keys: </p>
+
+<ul>
+<li><a href="#address_1">How does the automatically generated Bitcoin address work?</a></li>
+</ul>
+
+<p>Verifications: </p>
+
+<ul>
+<li><a href="#verification_1">Why do I need to publicly tweet/post and not delete the tweet/post?</a></li>
+<li><a href="#verification_2">Why is my Twitter/Facebook/Github verification not showing up?</a></li>
+</ul>
+
+<h2>
+<a name="general" class="anchor" href="#general"><span class="octicon octicon-link"></span></a>General</h2>
+
+<h4>
+<a name="q-what-is-onename" class="anchor" href="#q-what-is-onename"><span class="octicon octicon-link"></span></a>
+<a name="general_1"></a>Q: What is OneName?</h4>
+
+<p>Think of us as the user directory for Bitcoin. We help you get a Bitcoin username and then create a Bitcoin profile. And the best part is that we do it in a way that puts you in control.</p>
+
+<h4>
+<a name="q-what-do-you-mean-im-in-control" class="anchor" href="#q-what-do-you-mean-im-in-control"><span class="octicon octicon-link"></span></a>
+<a name="general_2"></a>Q: What do you mean I'm in control?</h4>
+
+<p>Unlike most services on the web today, OneName is not a walled garden. Instead, it is completely decentralized. Instead of issuing our own usernames in a closed namespace, we're using an open namespace on which anyone can register names. Instead of storing our user profiles in our private database, we store them in an open database called the blockchain for anyone to read.</p>
+
+<h4>
+<a name="q-how-can-i-trust-the-user-profile-data-you-display-is-correct" class="anchor" href="#q-how-can-i-trust-the-user-profile-data-you-display-is-correct"><span class="octicon octicon-link"></span></a>
+<a name="general_3"></a>Q: How can I trust the user profile data you display is correct?</h4>
+
+<p>If you view our site, you are viewing data that we are directly reading from the blockchain. However, you shouldn't take our word for it - you can always check the blockchain yourself and verify this data.</p>
+
+<h4>
+<a name="q-ive-heard-there-are-multiple-blockchains-which-one-are-you-using" class="anchor" href="#q-ive-heard-there-are-multiple-blockchains-which-one-are-you-using"><span class="octicon octicon-link"></span></a>
+<a name="general_4"></a>Q: I've heard there are multiple blockchains? Which one are you using?</h4>
+
+<p>The namespace we are using resides in the Namecoin blockchain, but any other blockchain could have worked as well.</p>
+
+<h4>
+<a name="q-if-i-dont-want-to-register-a-username-and-profile-through-your-site-can-i-do-it-myself" class="anchor" href="#q-if-i-dont-want-to-register-a-username-and-profile-through-your-site-can-i-do-it-myself"><span class="octicon octicon-link"></span></a>
+<a name="general_5"></a>Q: If I don't want to register a username and profile through your site, can I do it myself?</h4>
+
+<p>Absolutely! You'll basically need to (1) download a copy of namecoin-qt or namecoind (2) issue a command to register a name (3) issue a command to update your profile. You can find more information <a href="http://github.com/opennamesystem">here</a>.</p>
+
+<h2>
+<a name="addresses--private-keys" class="anchor" href="#addresses--private-keys"><span class="octicon octicon-link"></span></a>Addresses &amp; Private Keys.</h2>
+
+<h4>
+<a name="q-how-does-the-automatically-generated-bitcoin-address-work" class="anchor" href="#q-how-does-the-automatically-generated-bitcoin-address-work"><span class="octicon octicon-link"></span></a>
+<a name="address_1"></a>Q: How does the automatically generated Bitcoin address work?</h4>
 
 <p>If you do not provide a Bitcoin address during registration, Onename will generate one for you. The private key of this Bitcoin address is saved on our servers encrypted with your password (we do <em>not</em> have access to the private key). The private key is also stored in the backup file that you saved on Dropbox/Gdrive.</p>
+
+<h2>
+<a name="verifications" class="anchor" href="#verifications"><span class="octicon octicon-link"></span></a>Verifications.</h2>
+
+<h4>
+<a name="q-why-do-i-need-to-publicly-tweetpost-and-not-delete-the-tweetpost" class="anchor" href="#q-why-do-i-need-to-publicly-tweetpost-and-not-delete-the-tweetpost"><span class="octicon octicon-link"></span></a>
+<a name="verification_1"></a>Q: Why do I need to publicly tweet/post and not delete the tweet/post?</h4>
+
+<p>Verifications need to be independently and publicly verifiable i.e., any person who wants to verify the proof should be able to look at it hence the post/tweet needs to be public. Further, Onename can't vouch for the proof on behalf of any user (this is more secure than trusting any single service) meaning you can't auth your Twitter/Facebook with Onename and then try to use that as a proof.  </p>
+
+<h4>
+<a name="q-why-is-my-twitterfacebookgithub-verification-not-showing-up" class="anchor" href="#q-why-is-my-twitterfacebookgithub-verification-not-showing-up"><span class="octicon octicon-link"></span></a>
+<a name="verification_2"></a>Q: Why is my Twitter/Facebook/Github verification not showing up?</h4>
+
+<p>The verification text needs to be exact, more specifically "Verifying myself: My Bitcoin username is +" needs to be in the text. This requirement is because of security reasons and we can't allow arbitrary methods of phrasing the proof text. </p>
       </section>
       <footer>
         <p>This project is maintained by <a href="https://github.com/onenameio">onenameio</a></p>
