@@ -13,6 +13,7 @@ General:
 
 Addresses & Private Keys: 
 * [How does the automatically generated Bitcoin address work?](#address_1)
+* [Who has my private key?](#address_2)
 
 Verifications: 
 * [Why do I need to publicly tweet/post and not delete the tweet/post?](#verification_1)
@@ -42,6 +43,10 @@ Addresses & Private Keys.
 #### <a name="address_1"/>Q: How does the automatically generated Bitcoin address work? 
 
 If you do not provide a Bitcoin address during registration, Onename will generate one for you. The private key of this Bitcoin address is saved on our servers encrypted with your password (we do *not* have access to the private key). The private key is also stored in the backup file that you saved on Dropbox/Gdrive.
+
+#### <a name="address_2"/>Q: Who has my private key? 
+
+Only you have access to your private key. Onename encypts your private key with the password that you provided and keeps the encrypted copy on our servers. If you forget your password then you can use the backup file you saved during signup to recover the private key. 
 
 
 Verifications.
