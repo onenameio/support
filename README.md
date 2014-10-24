@@ -6,8 +6,9 @@ You'll find answers to some frequently asked questions here. If you cannot find 
 
 #### General:
 
-+ [What is OneName?](#general_1)
-+ [What do you mean I'm in control?](#general_2)
++ What is onename?
++ What do you mean I'm in control?
+
 + [How can I trust the user profile data you display is correct?](#general_3)
 + [I've heard there are multiple blockchains? Which one are you using?](#general_4)
 + [If I don't want to register a username and profile through your site, can I do it myself?](#general_5)
