@@ -44,7 +44,13 @@ Only you have access to your private key. Onename encypts your private key with 
 
 #### Q: Why do I need to publicly tweet/post and not delete the tweet/post?
 
-Verifications need to be independently and publicly verifiable i.e., any person who wants to verify the proof should be able to look at it hence the post/tweet needs to be public. Further, Onename can't vouch for the proof on behalf of any user (this is more secure than trusting any single service) meaning you can't auth your Twitter/Facebook with Onename and then try to use that as a proof.  
+Verifications need to be independently and publicly verifiable i.e., any person who wants to verify the proof should be able to look at it hence the post/tweet needs to be public. Further, Onename can't vouch for the proof on behalf of any user (this is more secure than trusting any single service) meaning you can't auth your Twitter/Facebook with Onename and then try to use that as a proof.
 
-#### <a name="verification_2"/>Q: Why is my Twitter/Facebook/Github verification not showing up?
+#### Q: Why is my Twitter/Facebook/Github verification not showing up?
 The verification text needs to be exact, more specifically "Verifying myself: My Bitcoin username is +<username>" needs to be in the text. This requirement is because of security reasons and we can't allow arbitrary methods of phrasing the proof text. 
+
+## Profile Data
+
+#### Q: How do I put custom data in my profile?
+
+We currently don't support that feature but stay tuned.
