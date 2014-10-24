@@ -25,14 +25,18 @@ You'll find answers to some frequently asked questions here. If you cannot find 
 ### General
 
 <h2>
-  <a name="general_1" href="#general_1" />
+  <a href="#general_1" name="general_1" />
     Q: What is OneName?
   </a>
 </h2>
 
 Think of us as the user directory for Bitcoin. We help you get a Bitcoin username and then create a Bitcoin profile. And the best part is that we do it in a way that puts you in control.
 
-#### <a name="general_2"/>Q: What do you mean I'm in control?
+<h2>
+  <a href="#general_2" name="#general_2" />
+    Q: What do you mean I'm in control?
+  </a>
+</h2>
 Unlike most services on the web today, OneName is not a walled garden. Instead, it is completely decentralized. Instead of issuing our own usernames in a closed namespace, we're using an open namespace on which anyone can register names. Instead of storing our user profiles in our private database, we store them in an open database called the blockchain for anyone to read.
 
 #### <a name="general_3"/>Q: How can I trust the user profile data you display is correct?
