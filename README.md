@@ -6,6 +6,8 @@ You'll find answers to some frequently asked questions here. If you cannot find 
 
 #### General:
 
++ [What is OneName?](#general_1)
++ [What do you mean I'm in control?](#general_2)
 + [How can I trust the user profile data you display is correct?](#general_3)
 + [I've heard there are multiple blockchains? Which one are you using?](#general_4)
 + [If I don't want to register a username and profile through your site, can I do it myself?](#general_5)
@@ -22,7 +24,7 @@ You'll find answers to some frequently asked questions here. If you cannot find 
 
 ### General
 
-#### <a name="general_1"/>Q: What is OneName?
+#### <a name="general_1"/>Q: What is OneName?</a>
 Think of us as the user directory for Bitcoin. We help you get a Bitcoin username and then create a Bitcoin profile. And the best part is that we do it in a way that puts you in control.
 
 #### <a name="general_2"/>Q: What do you mean I'm in control?
@@ -39,7 +41,7 @@ Absolutely! You'll basically need to (1) download a copy of namecoin-qt or namec
 
 ## Addresses & Private Keys.
 
-#### <a name="address_1"/>Q: How does the automatically generated Bitcoin address work? 
+#### <a name="address_1"/>Q: How does the automatically generated Bitcoin address work?</a>
 
 If you do not provide a Bitcoin address during registration, Onename will generate one for you. The private key of this Bitcoin address is saved on our servers encrypted with your password (we do *not* have access to the private key). The private key is also stored in the backup file that you saved on Dropbox/Gdrive.
 
