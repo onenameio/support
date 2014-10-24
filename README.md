@@ -24,7 +24,7 @@ You'll find answers to some frequently asked questions here. If you cannot find 
 
 ### General
 
-#### <a name="general_1"/>Q: What is OneName?</a>
+#### <a name="general_1" id="general_1" />Q: What is OneName?</a>
 Think of us as the user directory for Bitcoin. We help you get a Bitcoin username and then create a Bitcoin profile. And the best part is that we do it in a way that puts you in control.
 
 #### <a name="general_2"/>Q: What do you mean I'm in control?
