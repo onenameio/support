@@ -30,11 +30,17 @@ Absolutely! You'll basically need to (1) download a copy of namecoin-qt or namec
 
 If you forgot your login information, you can go to https://onename.io/reset to reset your password and regain access to your account.
 
-## Addresses & Private Keys.
+## Bitcoin Address
 
 #### Q: How does the automatically generated Bitcoin address work?</a>
 
 If you do not provide a Bitcoin address during registration, Onename will generate one for you. The private key of this Bitcoin address is saved on our servers encrypted with your password (we do *not* have access to the private key). The private key is also stored in the backup file that you saved on Dropbox/Gdrive.
+
+#### Q: How can I change the Bitcoin address?</a>
+
+You can change your Bitcoin address by editing your profile. You can use any Bitcoin address you want e.g., from Coinbase, Blockchain.info etc. Just make sure that you actually own that address before putting it in your profile.  
+
+## Private Keys
 
 #### Q: Who has my private key? 
 
