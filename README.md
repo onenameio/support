@@ -73,6 +73,6 @@ No, but the more you are Verified, the more your associates can trust that your 
 
 We currently don't support that feature but stay tuned.
 
-#### Q: Why does the DNSchain still say that my username is not found??
+#### Q: Why does the DNSchain still say that my username is not found?
 
-First, make sure your userid is all lowercase letters, ie: onename.io/kencode NOT: onename.io/kenCode Secondly, it can take a day or so to initially get your id info onto the Namecoin Blockchain, but after that, updates only take an hour or so.
+First, make sure your username only has lowercase letters. Second, it can take a few hours to a day for your username to be fully registered on the Namecoin Blockchain. After that, updates to your profile should only take somewhere between 10 minutes and a couple of hours.
