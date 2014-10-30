@@ -26,9 +26,29 @@ Absolutely! You'll basically need to (1) download a copy of namecoin-qt or namec
 
 ## Accounts
 
-#### When I signed up, I was given a 12-word passphrase. What if I forgot it?
+#### When I signed up, I chose a password and was asked to download an account backup file. What is the file for?
 
-If you forgot your login information, you can go to https://onename.io/reset to reset your password and regain access to your account.
+The backup file you downloaded is the mechanism we use to let you reset your password. Make sure you safeguard it because without it, you won't be able to reset your password if you forget it.
+
+#### If I forget my password, how can I recover it?
+
+Just go to https://onename.io/reset and you will be able to follow the steps to reset your password. At some point you'll be asked to upload the file you downloaded, and then you can choose a new password for your account.
+
+#### What happens if I forget both my password and my backup file?
+
+As we mention above, your account backup file is required for a password reset, so unfortunately, if you lose both your password and backup file, you lose access to your account.
+
+#### When I signed up, I was given a 12-word passphrase and emailed a backup code. How does this work?
+
+We asked our early users to write down a 12-word passphrase that gave them access to their accounts. And just in case they lost the passphrase, we emailed them a backup code. If you were one of these users, you can log in to Onename with your email and the 12-word passphrase as the password. Then, if you'd like, you can update your password at any time.
+
+#### What if I forget my 12-word passphrase?
+
+If you forgot your passphrase, you can go to https://onename.io/reset to reset your password and regain access to your account. You'll be asked to retreive the backup code that was emailed to you when you signed up.
+
+#### What if I forgot my 12-word passphrase and I no longer have the backup code that was emailed to me when I signed up?
+
+Unfortunately, the backup code is the only way for us to help you recover your 12-word passphrase and reset your account. So if you lost both your 12-word passphrase and your backup code, you will no longer have access to your account.
 
 ## Bitcoin Address
 
