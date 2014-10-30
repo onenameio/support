@@ -38,13 +38,20 @@ If you do not provide a Bitcoin address during registration, Onename will genera
 
 #### Q: How can I change the Bitcoin address?</a>
 
-You can change your Bitcoin address by editing your profile. You can use any Bitcoin address you want e.g., from Coinbase, Blockchain.info etc. Just make sure that you actually own that address before putting it in your profile.  
+You can change your Bitcoin address by editing your profile. You can use any Bitcoin address you want e.g., from Coinbase, Blockchain.info etc. Just make sure that you actually own that address before putting it in your profile.
 
 ## Private Keys
 
 #### Q: Who has my private key? 
 
 Only you have access to your private key. Onename encypts your private key with the password that you provided and keeps the encrypted copy on our servers. If you forget your password then you can use the backup file you saved during signup to recover the private key. 
+
+## Public PGP Keys
+
+#### Q: Can I host my own .asc, .pgp, .gpg or .key file? 
+
+Yes, but make sure the mime type is set on your server so that your key file is displayed in the browser as plain text. If the browser tries to send the file to the client as a download, the PGP feature on Onename will not work for you. On a NodeJS/Express server, just add this line to your server.js or app.js file.. ie: 
+express.static.mime.define({'text/plain': ['asc']});
 
 ## Verifications
 
@@ -53,10 +60,19 @@ Only you have access to your private key. Onename encypts your private key with 
 Verifications need to be independently and publicly verifiable i.e., any person who wants to verify the proof should be able to look at it hence the post/tweet needs to be public. Further, Onename can't vouch for the proof on behalf of any user (this is more secure than trusting any single service) meaning you can't auth your Twitter/Facebook with Onename and then try to use that as a proof.
 
 #### Q: Why is my Twitter/Facebook/Github verification not showing up?
+
 The verification text needs to be exact, more specifically "Verifying myself: My Bitcoin username is +<username>" needs to be in the text. This requirement is because of security reasons and we can't allow arbitrary methods of phrasing the proof text. 
+
+#### Q: Do I have to have a Twitter, Facebook AND Github account in there for Verification?
+
+No, but the more you are Verified, the more your associates can trust that your Onename profile is actually you.
 
 ## Profile Data
 
 #### Q: How do I put custom data in my profile?
 
 We currently don't support that feature but stay tuned.
+
+#### Q: Why does the DNSchain still say that my username is not found??
+
+First, make sure your userid is all lowercase letters, ie: onename.io/kencode NOT: onename.io/kenCode Secondly, it can take a day or so to initially get your id info onto the Namecoin Blockchain, but after that, updates only take an hour or so.
