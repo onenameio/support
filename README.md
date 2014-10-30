@@ -75,4 +75,4 @@ We currently don't support that feature but stay tuned.
 
 #### Q: Why does the DNSchain still say that my username is not found?
 
-First, make sure your username only has lowercase letters. Second, it can take a few hours to a day for your username to be fully registered on the Namecoin Blockchain. After that, updates to your profile should only take somewhere between 10 minutes and a couple of hours.
+First, make sure your username only has lowercase letters. Second, note that it can take a few hours to a day for your username to be fully registered on the Namecoin Blockchain. After that, updates to your profile should only take somewhere between 10 minutes and a couple of hours.
