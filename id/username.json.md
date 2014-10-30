@@ -7,3 +7,5 @@ For example,
 "location" should be "locality"
 "bio" should be "description"
 "avatar" should be "photo_url"
+
+ie: http://kencode.de/id/kenCode.json
