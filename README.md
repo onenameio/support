@@ -4,13 +4,13 @@ You'll find answers to some frequently asked questions here. If you cannot find 
 
 ## General
 
-#### Q: What is OneName?
+#### Q: What is Onename?
 
 Think of us as the user directory for Bitcoin. We help you get a Bitcoin username and then create a Bitcoin profile. And the best part is that we do it in a way that puts you in control.
 
 #### Q: What do you mean I'm in control?
 
-Unlike most services on the web today, OneName is not a walled garden. Instead, it is completely decentralized. Instead of issuing our own usernames in a closed namespace, we're using an open namespace on which anyone can register names. Instead of storing our user profiles in our private database, we store them in an open database called the blockchain for anyone to read.
+Unlike most services on the web today, Onename is not a walled garden. Instead, it is completely decentralized. Instead of issuing our own usernames in a closed namespace, we're using an open namespace on which anyone can register names. Instead of storing our user profiles in our private database, we store them in an open database called the blockchain for anyone to read.
 
 #### Q: How can I trust the user profile data you display is correct?
 
