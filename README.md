@@ -22,7 +22,7 @@ The namespace we are using resides in the Namecoin blockchain, but any other blo
 
 #### Q: If I don't want to register a username and profile through your site, can I do it myself?
 
-Absolutely! You'll basically need to (1) download a copy of namecoin-qt or namecoind (2) issue a command to register a name (3) issue a command to update your profile. You can find more information [here](http://github.com/opennamesystem).
+Absolutely! You'll basically need to (1) download a copy of namecoin-qt or namecoind (2) issue a command to register a name (3) issue a command to update your profile. You can find more information [here](http://github.com/openname).
 
 ## Accounts
 
@@ -38,15 +38,15 @@ Just go to https://onename.io/reset and you will be able to follow the steps to 
 
 As we mention above, your account backup file is required for a password reset, so unfortunately, if you lose both your password and backup file, you lose access to your account.
 
-#### When I signed up, I was given a 12-word passphrase and emailed a backup code. How does this work?
+#### [Early User] When I signed up, I was given a 12-word passphrase and emailed a backup code. How does this work?
 
-We asked our early users to write down a 12-word passphrase that gave them access to their accounts. And just in case they lost the passphrase, we emailed them a backup code. If you were one of these users, you can log in to Onename with your email and the 12-word passphrase as the password. Then, if you'd like, you can update your password at any time.
+We asked our early users (signed up before summer 2014) to write down a 12-word passphrase that gave them access to their accounts. And just in case they lost the passphrase, we emailed them a backup code. If you were one of these users, you can log in to Onename with your email and the 12-word passphrase as the password. Then, if you'd like, you can update your password at any time.
 
-#### What if I forget my 12-word passphrase?
+#### [Early User] What if I forget my 12-word passphrase?
 
 If you forgot your passphrase, you can go to https://onename.io/reset to reset your password and regain access to your account. You'll be asked to retreive the backup code that was emailed to you when you signed up.
 
-#### What if I forgot my 12-word passphrase and I no longer have the backup code that was emailed to me when I signed up?
+#### [Early User] What if I forgot my 12-word passphrase and I no longer have the backup code that was emailed to me when I signed up?
 
 Unfortunately, the backup code is the only way for us to help you recover your 12-word passphrase and reset your account. So if you lost both your 12-word passphrase and your backup code, you will no longer have access to your account.
 
@@ -96,3 +96,7 @@ We currently don't support that feature but stay tuned.
 #### Q: Why does the DNSchain still say that my username is not found?
 
 First, make sure your username only has lowercase letters. Second, note that it can take a few hours to a day for your username to be fully registered on the Namecoin Blockchain. After that, updates to your profile should only take somewhere between 10 minutes and a couple of hours.
+
+#### Q: How can I find my profile data in the blockchain? 
+
+You can use any Namecoin blockchain explorer to find your record/data in the blockchain. Some examples are a) [Namecha.in](http://namecha.in/name/u/barrysilbert) and b) [Webbtc](http://namecoin.webbtc.com/name/u/barrysilbert).
