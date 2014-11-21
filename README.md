@@ -81,7 +81,9 @@ Verifications need to be independently and publicly verifiable i.e., any person 
 
 #### Q: Why is my Twitter/Facebook/Github verification not showing up?
 
-The verification text needs to be exact, more specifically "Verifying myself: My Bitcoin username is +<username>" needs to be in the text. This requirement is because of security reasons and we can't allow arbitrary methods of phrasing the proof text. 
+*Possible Reason #1) Incorrect proof text:* The verification text needs to be exact, more specifically "Verifying myself: My Bitcoin username is +<username>" needs to be in the text. This requirement is because of security reasons and we can't allow arbitrary methods of phrasing the proof text. 
+
+*Possible Reason #2) Incorrect URL to proof:* You can view your profile data by clicking on "Profile Data" on the left-bottom corner of your profile or by appending ".json" to your profile URL. An examples profile data is [here](https://onename.io/barrysilbert.json). Your profile data will list URLs to different proofs. Make sure that if you visit the proof URL (of Github/Facebook/Twitter) you can see the proof text on that URL. This URL needs to be publicly readable (private accounts don't work). 
 
 #### Q: Do I have to have a Twitter, Facebook AND Github account in there for Verification?
 
