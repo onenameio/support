@@ -6,7 +6,7 @@ You'll find answers to some frequently asked questions here. If you cannot find 
 
 #### Q: What is Onename?
 
-Think of us as the user directory for Bitcoin. We help you get a Bitcoin username and then create a Bitcoin profile. And the best part is that we do it in a way that puts you in control.
+Onename is a Blockchain ID registrar and directory service. We help you get a Blockchain ID and then create a user profile. And the best part is that we do it in a way that puts you in control.
 
 #### Q: What do you mean I'm in control?
 
@@ -22,7 +22,7 @@ The namespace we are using resides in the Namecoin blockchain, but any other blo
 
 #### Q: If I don't want to register a username and profile through your site, can I do it myself?
 
-Absolutely! You'll basically need to (1) download a copy of namecoin-qt or namecoind (2) issue a command to register a name (3) issue a command to update your profile. You can find more information [here](http://github.com/openname).
+Absolutely! You'll basically need to (1) download a copy of namecoin-qt or namecoind (2) issue a command to register a name (3) issue a command to update your profile. You can find more information [here](https://github.com/blockstack/registrar).
 
 ## Accounts
 
