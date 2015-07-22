@@ -6,7 +6,7 @@ You'll find answers to some frequently asked questions here. If you cannot find 
 
 #### Q: What is Onename?
 
-Onename is a Blockchain ID registrar and directory service. We help you get a Blockchain ID and then create a user profile. And the best part is that we do it in a way that puts you in control.
+Onename is a BlockchainID registrar and directory service. We help you get a BlockchainID and then create a user profile. And the best part is that we do it in a way that puts you in control.
 
 #### Q: What do you mean I'm in control?
 
