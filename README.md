@@ -6,7 +6,7 @@ You'll find answers to some frequently asked questions here. If you cannot find 
 
 #### Q: What is Onename?
 
-Think of us as the user directory for Bitcoin. We help you get a Bitcoin username and then create a Bitcoin profile. And the best part is that we do it in a way that puts you in control.
+Onename is a blockchain ID registrar and user directory service. We help you get a blockchain ID and then create a profile that you can share with others. The best part is that we do this in a way that puts you in control.
 
 #### Q: What do you mean I'm in control?
 
@@ -20,9 +20,9 @@ If you view our site, you are viewing data that we are directly reading from the
 
 The namespace we are using resides in the Namecoin blockchain, but any other blockchain could have worked as well.
 
-#### Q: If I don't want to register a username and profile through your site, can I do it myself?
+#### Q: If I don't want to register a blockchain ID through your site, can I do it myself?
 
-Absolutely! You'll basically need to (1) download a copy of namecoin-qt or namecoind (2) issue a command to register a name (3) issue a command to update your profile. You can find more information [here](http://github.com/openname).
+Absolutely! You'll basically need to (1) download a copy of namecoin-qt or namecoind (2) issue a command to register a name (3) issue a command to update your profile. You can find more information [here](http://github.com/blockstack).
 
 ## Accounts
 
@@ -81,13 +81,13 @@ Verifications need to be independently and publicly verifiable i.e., any person 
 
 #### Q: Why is my Twitter/Facebook/Github verification not showing up?
 
-*Possible Reason #1) Incorrect proof text:* The verification text needs to be exact, more specifically "Verifying myself: My Bitcoin username is +<username>" needs to be in the text. This requirement is because of security reasons and we can't allow arbitrary methods of phrasing the proof text. 
+*Possible Reason #1) Incorrect proof text:* The verification text needs to be exact, more specifically "Verifying myself: My blockchain ID is +<blockchain ID>" needs to be in the text. This requirement is because of security reasons and we can't allow arbitrary methods of phrasing the proof text. 
 
 *Possible Reason #2) Incorrect URL to proof:* You can view your profile data by clicking on "Profile Data" on the left-bottom corner of your profile or by appending ".json" to your profile URL. An examples profile data is [here](https://onename.io/barrysilbert.json). Your profile data will list URLs to different proofs. Make sure that if you visit the proof URL (of Github/Facebook/Twitter) you can see the proof text on that URL. This URL needs to be publicly readable (private accounts don't work). 
 
 #### Q: Do I have to have a Twitter, Facebook AND Github account in there for Verification?
 
-No, but the more you are Verified, the more your associates can trust that your Onename profile is actually you.
+No, but the more you are Verified, the more your associates can trust that your blockchain ID is actually you.
 
 ## Profile Data
 
@@ -95,9 +95,9 @@ No, but the more you are Verified, the more your associates can trust that your 
 
 We currently don't support that feature but stay tuned.
 
-#### Q: Why does the DNSchain still say that my username is not found?
+#### Q: Why does the DNSChain still say that my blockchain ID is not found?
 
-First, make sure your username only has lowercase letters. Second, note that it can take a few hours to a day for your username to be fully registered on the Namecoin Blockchain. After that, updates to your profile should only take somewhere between 10 minutes and a couple of hours.
+First, make sure your blockchain ID only has lowercase letters. Second, note that it can take a few hours to a day for your blockchain ID to be fully registered on the Namecoin blockchain. After that, updates to your profile should only take somewhere between 10 minutes and a couple of hours.
 
 #### Q: How can I find my profile data in the blockchain? 
 
